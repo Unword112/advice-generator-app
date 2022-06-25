@@ -80,3 +80,56 @@ body{
 .btn:hover {
     background-color: var(--Neon-Green);
 }
+
+@media only screen and (min-width: 375px) {
+    .card {
+        position: absolute;
+        top: 50%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        background-color: var(--Dark-Grayish-Blue);
+        border-radius: 10px;
+        width: 380px;
+        height: 400px;
+    }
+    
+    .headID {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        color: var(--Neon-Green);
+    }
+    
+    .results {
+        text-align: center;
+        margin-top: 15px;
+        margin-right: 15px;
+        margin-left: 15px;
+        color: var(--Light-Cyan);
+    }
+    
+    .pattern {
+        position: absolute;
+        top: 78%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .btn {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 100%;
+        width: 60px;
+        height: 60px;
+        background: url('images/icon-dice.svg');
+        background-color: var(--Light-Cyan);
+        background-position:center;
+        background-repeat:no-repeat;
+    }
+    
+    .btn:hover {
+        background-color: var(--Neon-Green);
+    }
+}
