@@ -36,8 +36,8 @@ body{
     transform: translate(-50%, -50%);
     background-color: var(--Dark-Grayish-Blue);
     border-radius: 25px;
-    width: 500px;
-    height: 350px;
+    width: 450px;
+    height: 300px;
 }
 
 .headID {
@@ -60,6 +60,7 @@ body{
     top: 78%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 70%;
 }
 
 .btn {
@@ -81,16 +82,16 @@ body{
     background-color: var(--Neon-Green);
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 375px) {
     .card {
         position: absolute;
         top: 50%;
-        left: 55%;
+        left: 50%;
         transform: translate(-50%, -50%);
         background-color: var(--Dark-Grayish-Blue);
         border-radius: 10px;
-        width: 380px;
-        height: 400px;
+        width: 350px;
+        height: 300px;
     }
     
     .headID {
